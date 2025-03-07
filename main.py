@@ -32,7 +32,7 @@ def check_domain_age(url):
 
 # Function to check if the URL is blacklisted (Google Safe Browsing API)
 def check_blacklist(url):
-    api_key = "AIzaSyAPA6wysqOIeV98T_fwSnmVVDKwNzy8PoA"
+    api_key = "Enter Your API key"
     safe_browsing_url = f"https://safebrowsing.googleapis.com/v4/threatMatches:find?key={api_key}"
     payload = {
         "client": {
